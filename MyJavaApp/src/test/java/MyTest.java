@@ -1,7 +1,8 @@
+import com.ddf.HelloWorld;
 import org.junit.Assert;
 import org.junit.Test;
-import com.thread.CopyOnWriteArrayList.ReadThread;
-import com.thread.CopyOnWriteArrayList.WriteThread;
+import com.ddf.thread.CopyOnWriteArrayList.ReadThread;
+import com.ddf.thread.CopyOnWriteArrayList.WriteThread;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
