@@ -1,4 +1,4 @@
-package com.ddf.annotation.compiler;
+package com.annotation.compiler;
 
 import javax.annotation.processing.*;
 import javax.lang.model.SourceVersion;

@@ -1,4 +1,4 @@
-package com.ddf.annotation;
+package com.annotation;
 
 import java.lang.reflect.Method;
 
