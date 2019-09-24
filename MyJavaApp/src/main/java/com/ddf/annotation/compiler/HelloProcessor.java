@@ -13,9 +13,9 @@ import java.util.Set;
  * Java 中的编译时注解：https://segmentfault.com/a/1190000009756015
  *
  * 运行下面两个命令生产Player_New.java文件
- * javac -encoding UTF-8 -d out/production/JavaAppLab src/com/ddf/annotation/compiler/HelloProcessor.java src/com/ddf/annotation/compiler/Hello.java
+ * javac -encoding UTF-8 -d out/production/classes src/main/java/com/ddf/annotation/compiler/HelloProcessor.java src/main/java/com/ddf/annotation/compiler/Hello.java
  *
- * javac -encoding UTF-8 -cp out/production/JavaAppLab -processor com.ddf.annotation.compiler.HelloProcessor -d out/production/JavaAppLab -s src/ src/com/ddf/annotation/compiler/*.java
+ * javac -encoding UTF-8 -cp out/production/classes -processor com.ddf.annotation.compiler.HelloProcessor -d out/production/classes -s out/src/ src/main/java/com/ddf/annotation/compiler/*.java
  */
 
 @SupportedSourceVersion(SourceVersion.RELEASE_8) // 源码级别, 这里的环境是 jdk 1.8
